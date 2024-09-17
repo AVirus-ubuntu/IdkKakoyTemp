@@ -1,0 +1,8 @@
+venv
+support
+*.env
+*.sh
+__pycache__
+logs
+database
+icon
