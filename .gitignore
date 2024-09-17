@@ -7,3 +7,4 @@ logs
 database
 icon
 __config__.py
+.DS_Store
