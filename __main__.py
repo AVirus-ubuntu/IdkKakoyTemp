@@ -624,6 +624,11 @@ def getmessage(message):
 
                 elif not b:
                     bot.send_message(message.chat.id, 'Крыса, тебе низя')
+            elif message.text.lower() == '$bd':
+                if message.from_user.id in cfg.admins:
+                    bot.send_message(message.chat.id, f'```py\n{message.chat.id}\n```', parse_mode='markdown')
+                else:
+                    bot.send_message(message.chat.id, 'Крыса, тебе низя')
 
 
 
